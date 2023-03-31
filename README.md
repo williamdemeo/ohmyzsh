@@ -21,7 +21,7 @@ To learn more, visit [ohmyz.sh](https://ohmyz.sh), follow [@ohmyzsh](https://twi
 
 ------------------------
 
-## Custom Section for @williamdemeo's fork only
+## Special section for this custom fork (@williamdemeo)
 
 This section shows how I install this custom version of oh-my-zsh.
 
@@ -30,6 +30,13 @@ This section shows how I install this custom version of oh-my-zsh.
 ```sh
 git clone git@github.com:williamdemeo/ohmyzsh.git ~/.config/oh-my-zsh
 ```
+
+**WARNING**.  This fork includes the `oh-my-zsh/custom` directory with customized 
+cofiguration files (by @williamdemeo) that are not shipped with the official version
+of oh-my-zsh. If you wish to install oh-my-zsh by cloning this fork, you should
+definitely have a look at the files in `oh-my-zsh/custom` and adjust them to suit 
+your own setup.
+
 
 ### 2. _Optionally_, backup your existing `~/.zshrc` file  <!-- omit in toc -->
 
@@ -46,7 +53,7 @@ For example, to use the one supplied by the developers of oh-my-zsh,
 ln -s ~/.config/oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
 
-OR, to use @williamdemeo's custom config file,
+OR, use the one supplied in this custom fork (@williamdemeo)
 
 ```sh
 ln -s ~/.config/oh-my-zsh/templates/zshrc.wjd-template ~/.zshrc
