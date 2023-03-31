@@ -18,6 +18,52 @@ To learn more, visit [ohmyz.sh](https://ohmyz.sh), follow [@ohmyzsh](https://twi
 [![Gitpod ready](https://img.shields.io/badge/Gitpod-ready-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ohmyzsh/ohmyzsh)
 [![huntr.dev](https://cdn.huntr.dev/huntr_security_badge_mono.svg)](https://huntr.dev/bounties/disclose/?utm_campaign=ohmyzsh%2Fohmyzsh&utm_medium=social&utm_source=github&target=https%3A%2F%2Fgithub.com%2Fohmyzsh%2Fohmyzsh)
 
+
+------------------------
+
+## Custom Section for @williamdemeo's fork only
+
+This section shows how I install this custom version of oh-my-zsh.
+
+### 1. Clone the repository  <!-- omit in toc -->
+
+```sh
+git clone git@github.com:williamdemeo/ohmyzsh.git ~/.config/oh-my-zsh
+```
+
+### 2. _Optionally_, backup your existing `~/.zshrc` file  <!-- omit in toc -->
+
+```sh
+cp ~/.zshrc ~/.zshrc.orig
+```
+
+### 3. Create a new zsh configuration file <!-- omit in toc -->
+
+You can create a new zsh config file by simply linking to one of the templates.
+For example, to use the one supplied by the developers of oh-my-zsh,
+
+```sh
+ln -s ~/.config/oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+```
+
+OR, to use @williamdemeo's custom config file,
+
+```sh
+ln -s ~/.config/oh-my-zsh/templates/zshrc.wjd-template ~/.zshrc
+```
+
+### 4. Change your default shell <!-- omit in toc -->
+
+```sh
+chsh -s $(which zsh)
+```
+
+You must log out from your user session and log back in to see this change.
+
+
+-----------------------
+
+
 <details>
 <summary>Table of Contents</summary>
 
