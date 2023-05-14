@@ -1,5 +1,5 @@
 # bin and sbin paths
-HOME_PATH=$HOME/bin:$HOME/.local/bin:$HOME/.config/emacs/bin
+HOME_PATH=$HOME/bin:$HOME/.local/bin:$HOME/.config/emacs/bin:$HOME/opt/IntelliJ/idea-IC-231.8770.65/bin
 BIN_PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:
 
 # Paths to various Node versions
