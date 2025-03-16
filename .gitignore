@@ -1,6 +1,5 @@
 # custom files
-custom/plugins
-custom/themes
+custom/
 
 # temp files directories
 cache/
@@ -12,4 +11,6 @@ log/
 .vscode
 .idea
 
+# zcompile cached files
+*.zwc
 *~
